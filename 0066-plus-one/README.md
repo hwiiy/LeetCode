@@ -39,3 +39,14 @@ Thus, the result should be [1,0].
 	<li><code>digits</code> does not contain any leading <code>0</code>'s.</li>
 </ul>
 </div>
+
+# [solution]
+
+## 1.BigInt 이용
+#### BigInt는 BigInt 자료형들끼리 연산 할 수 있음 (number 와는 불가능)
+#### BigInt의 type 은 object임
+
+
+## 2.Split 이용
+#### split의 반환값은 array
+#### 숫자형 타입을 문자형 변환 하고 하나씩 자르기 : num = num.toString().split('')
